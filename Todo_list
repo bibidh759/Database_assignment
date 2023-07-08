@@ -1,0 +1,19 @@
+use essentials;
+create table todo_list
+(
+task_id int,
+task_name varchar(255),
+description varchar (255),
+is_completed varchar(255)
+)
+insert into todo_list(task_id, task_name, description, is_completed) values
+(1,"yoga","Yoga for 30 min", "Yes");
+
+insert into todo_list(task_id, task_name, description, is_completed) values
+(2,"coding","practice 3 question","Yes");
+
+insert into todo_list(task_id, task_name, description, is_completed) values
+(3,"play carrom", "play for 1 hour" , "No");
+
+insert into todo_list(task_id, task_name, description, is_completed) values
+(4, "News", "read news", "No");
